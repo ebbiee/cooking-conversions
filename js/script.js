@@ -3,61 +3,61 @@ function millilitersToGram(inputtedNumber) {
   return inputtedNumber * 1 + "g";
 }
 function gramToMilliliters(inputtedNumber) {
-  return inputtedNumber / 1;
+  return inputtedNumber / 1 + "ml";
 }
 function millilitersToTablespoons(inputtedNumber) {
-  return inputtedNumber / 14.787;
+  return inputtedNumber / 14.787 + "tbsps";
 }
 function tablespoonsToMilliliters(inputtedNumber) {
-  return inputtedNumber * 14.787;
+  return inputtedNumber * 14.787 + "ml";
 }
 function millilitersToKilogram(inputtedNumber) {
-  return inputtedNumber / 1000;
+  return inputtedNumber / 1000 + "kg";
 }
 function kilogramToMilliliters(inputtedNumber) {
-  return inputtedNumber * 1000;
+  return inputtedNumber * 1000 + "ml";
 }
 function millilitersToLitres(inputtedNumber) {
-  return inputtedNumber / 1000;
+  return inputtedNumber / 1000 + "L";
 }
 function litresToMillilitres(inputtedNumber) {
-  return inputtedNumber * 1000;
+  return inputtedNumber * 1000 + "ml";
 }
 function gramToKilogram(inputtedNumber) {
-  return inputtedNumber / 1000;
+  return inputtedNumber / 1000 + "kg";
 }
 function kilogramToGram(inputtedNumber) {
-  return inputtedNumber * 1000;
+  return inputtedNumber * 1000 + "g";
 }
 function gramToTablespoons(inputtedNumber) {
-  return inputtedNumber / 15;
+  return inputtedNumber / 15 + "tbsps";
 }
 function tablespoonsToGram(inputtedNumber) {
-  return inputtedNumber * 15;
+  return inputtedNumber * 15 + "g";
 }
 function gramToLitres(inputtedNumber) {
-  return inputtedNumber / 1000;
+  return inputtedNumber / 1000 + "L";
 }
 function litresToGram(inputtedNumber) {
-  return inputtedNumber * 1000;
+  return inputtedNumber * 1000 + "g";
 }
 function kilogramToLitres(inputtedNumber) {
-  return inputtedNumber * 1;
+  return inputtedNumber * 1 + "L";
 }
 function litresToKilogram(inputtedNumber) {
-  return inputtedNumber * 1;
+  return inputtedNumber * 1 + "kg";
 }
 function kilogramToTablespoons(inputtedNumber) {
-  return inputtedNumber * 67.628;
+  return inputtedNumber * 67.628 + "tbsps";
 }
 function tablespoonsToKilogram(inputtedNumber) {
-  return inputtedNumber / 67.628;
+  return inputtedNumber / 67.628 + "kg";
 }
 function litresToTablespoons(inputtedNumber) {
-  return inputtedNumber * 66.6667;
+  return inputtedNumber * 66.6667 + "tbsps";
 }
 function tablespoonsToLitres(inputtedNumber) {
-  return inputtedNumber / 66.667;
+  return inputtedNumber / 66.667 + "L";
 }
 
 //user interface logic
