@@ -1,0 +1,14 @@
+#formOne{
+  background-color: rgba(203, 213, 221, 0.804);
+}
+.container{
+  background-color: rgba(212, 221, 228, 0.804);
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  margin-left: 225px;
+}
