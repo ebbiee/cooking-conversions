@@ -59,6 +59,21 @@ function litresToTablespoons(inputtedNumber) {
 function tablespoonsToLitres(inputtedNumber) {
   return inputtedNumber / 66.667 + "L";
 }
+function tablespoonsToTablespoons(inputtedNumber) {
+  return inputtedNumber + "tbsps";
+}
+function litersToLiters(inputtedNumber) {
+  return inputtedNumber + "L";
+}
+function kilogramToKilogram(inputtedNumber) {
+  return inputtedNumber + "kg";
+}
+function gramToGram(inputtedNumber) {
+  return inputtedNumber + "g";
+}
+function millilitersToMilliters(inputtedNumber) {
+  return inputtedNumber + "ml";
+}
 
 //user interface logic
 $(document).ready(function () {
@@ -142,6 +157,25 @@ $(document).ready(function () {
       let result = tablespoonsToLitres(inputtedNumber)
       $("#answer").html(result);
     }
+    if (firstMeasurement === "liters" && secondMesurement === "liters"){
+      let result = litersToLiters(inputtedNumber);
+      $("#answer").html(result);
+    } else if (firstMeasurement === "milliliters" && secondMesurement === "milliliters"){
+      let result = millilitersToMilliters(inputtedNumber)
+      $("#answer").html(result);
+    }
+    if (firstMeasurement === "Gram" && secondMesurement === "Gram"){
+      let result = gramToGram(inputtedNumber);
+      $("#answer").html(result);
+    } else if (firstMeasurement === "Kilogram" && secondMesurement === "Kilogram"){
+      let result = kilogramToKilogram(inputtedNumber)
+      $("#answer").html(result);
+    }
+      if (firstMeasurement === "Tablespoons" && secondMesurement === "Tablespoons"){
+      let result = tablespoonsToTablespoons(inputtedNumber);
+      $("#answer").html(result);
+    }
+
 
 
 
