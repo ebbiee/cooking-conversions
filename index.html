@@ -17,7 +17,7 @@
       <form action="" id="formOne" class="col-md-4 border border-2 rounded p-4">
       
         <label for="">Convert from:</label>
-        <select name="" class="form-control" id="food">
+        <select name="" class="form-control" id="firstMeasurement">
           <option value="milliliters">Mililiters</option>
           <option value="Gram">Gram</option>
           <option value="Kilogram">Kilogram</option>
@@ -25,7 +25,7 @@
           <option value="liters">liters</option>
         </select>
         <label for="">Convert to:</label>
-        <select name="" class="form-control" id="food">
+        <select name="" class="form-control" id="secondMeasurement">
           <option value="milliliters">Milliliters</option>
           <option value="Gram">Gram</option>
           <option value="Kilogram">Kilogram</option>
@@ -33,10 +33,12 @@
           <option value="liters">liters</option>
         </select>
         <input type="number" id="userInput" placeholder="Value to Convert" class="form-control my-4">
-        <button class="btn btn-success my-4">Convert!</button>
+        <button type="submit" class="btn btn-success my-4">Convert!</button>
   
       </form>
+
     </div>
+    <span class="center" id="answer"><h3>0</h3></span>
   </div>
 </body>
 </html>
