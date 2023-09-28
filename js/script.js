@@ -75,10 +75,7 @@ $(document).ready(function () {
       let result = millilitersToLitres(inputtedNumber);
       $("#answer").html(result);
       console.log(result);
-    } else if (
-      firstMeasurement === "liters" &&
-      secondMesurement === "milliliters"
-    ) {
+    } else if ( firstMeasurement === "liters" && secondMesurement === "milliliters") {
       let result = litresToMillilitres(inputtedNumber);
       $("#answer").html(result);
     }
@@ -89,5 +86,64 @@ $(document).ready(function () {
       let result = gramToKilogram(inputtedNumber);
       $("#answer").html(result);
     }
+    if (firstMeasurement === "milliliters" && secondMesurement === "Gram"){
+      let result = millilitersToGram(inputtedNumber)
+      $("#answer").html(result);
+    } else if (firstMeasurement === "Gram" && secondMesurement === "milliliters"){
+      let result = gramToMilliliters(inputtedNumber)
+      $("#answer").html(result);
+    }
+    if (firstMeasurement === "milliliters" && secondMesurement === "Tablespoons"){
+      let result = millilitersToTablespoons(inputtedNumber);
+      $("#answer").html(result);
+    } else if (firstMeasurement === "Tablespoons" && secondMesurement === "milliliters"){
+      let result = tablespoonsToMilliliters(inputtedNumber);
+      $("#answer").html(result);
+    }
+    if (firstMeasurement === "milliliters" && secondMesurement === "Kilogram"){
+      let result = millilitersToKilogram(inputtedNumber);
+      $("#answer").html(result);
+    } else if (firstMeasurement === "Kilogram" && secondMesurement === "milliliters"){
+      let result = kilogramToMilliliters(inputtedNumber);
+      $("#answer").html(result);
+    }
+    if (firstMeasurement === "Gram" && secondMesurement === "Tablespoons"){
+      let result = gramToTablespoons(inputtedNumber);
+      $("#answer").html(result);
+    } else if (firstMeasurement === "Tablespoons" && secondMesurement === "Gram"){
+      let result = tablespoonsToGram(inputtedNumber)
+      $("#answer").html(result);
+    }
+    if (firstMeasurement === "Gram" && secondMesurement === "liters"){
+      let result = gramToLitres(inputtedNumber);
+      $("#answer").html(result);
+    } else if (firstMeasurement === "liters" && secondMesurement === "Gram"){
+      let result = litresToGram(inputtedNumber)
+      $("#answer").html(result);
+    }
+    if (firstMeasurement === "Kilogram" && secondMesurement === "liters"){
+      let result = kilogramToLitres(inputtedNumber);
+      $("#answer").html(result);
+    } else if (firstMeasurement === "liters" && secondMesurement === "Kilogram"){
+      let result = litresToKilogram(inputtedNumber)
+      $("#answer").html(result);
+    }
+    if (firstMeasurement === "Kilogram" && secondMesurement === "Tablespoons"){
+      let result = kilogramToTablespoons(inputtedNumber);
+      $("#answer").html(result);
+    } else if (firstMeasurement === "Tablespoons" && secondMesurement === "Kilogram"){
+      let result = tablespoonsToKilogram(inputtedNumber)
+      $("#answer").html(result);
+    }
+    if (firstMeasurement === "liters" && secondMesurement === "Tablespoons"){
+      let result = litresToTablespoons(inputtedNumber);
+      $("#answer").html(result);
+    } else if (firstMeasurement === "Tablespoons" && secondMesurement === "liters"){
+      let result = tablespoonsToLitres(inputtedNumber)
+      $("#answer").html(result);
+    }
+
+
+
   });
 });
