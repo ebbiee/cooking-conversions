@@ -12,29 +12,27 @@
 <body>
   <div class="container border border-2 rounded p-4 my-4" >
     <h1>Cooking Conversions</h1>
+    <h5>please note that its the density of water(1) that is used to calculate the measurements</h5>
     <div class="center">
       <form action="" id="formOne" class="col-md-4 border border-2 rounded p-4">
       
         <label for="">Convert from:</label>
         <select name="" class="form-control" id="food">
-          <option value="Milimeters">Milimeters</option>
-          <option value="meters">meters</option>
+          <option value="milliliters">Mililiters</option>
           <option value="Gram">Gram</option>
           <option value="Kilogram">Kilogram</option>
           <option value="Tablespoons">Tablespoons</option>
-          <option value="Gallons">Gallons</option>
           <option value="liters">liters</option>
         </select>
         <label for="">Convert to:</label>
         <select name="" class="form-control" id="food">
-          <option value="milimeters">milimeters</option>
-          <option value="meters">meters</option>
+          <option value="milliliters">Milliliters</option>
           <option value="Gram">Gram</option>
           <option value="Kilogram">Kilogram</option>
           <option value="Tablespoons">Tablespoons</option>
-          <option value="Gallons">Gallons</option>
           <option value="liters">liters</option>
         </select>
+        <input type="number" id="userInput" placeholder="Value to Convert" class="form-control my-4">
         <button class="btn btn-success my-4">Convert!</button>
   
       </form>
