@@ -1,6 +1,6 @@
 //business logic
 function millilitersToGram(inputtedNumber) {
-  return inputtedNumber * 1;
+  return inputtedNumber * 1 + "g";
 }
 function gramToMilliliters(inputtedNumber) {
   return inputtedNumber / 1;
